@@ -36,3 +36,18 @@
   border-left: 30vh solid #f7f7f7;
   border-right: 30vh solid #f7f7f7;
 }
+
+.trapecio {
+  width: 60vh;
+  height: 0;
+  border-bottom: 30vh solid #222;
+  border-left: 20vh solid #f7f7f7;
+  border-right: 20vh solid #f7f7f7;
+}
+
+.paralelograma {
+  height: 25vh;
+  width: 50vh;
+  background-color: #222;
+  transform: skewX(-20deg);
+}

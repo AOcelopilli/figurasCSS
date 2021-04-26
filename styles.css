@@ -80,3 +80,23 @@
   border-radius: 0 50% 50% 50%;
   transform: rotate(45deg);
 }
+
+.diamante {
+  position: relative;
+  width: 60vh;
+  height: 0;
+  border-bottom: 20vh solid #222;
+  border-left: 15vh solid #f7f7f7;
+  border-right: 15vh solid #f7f7f7;
+  top: -20vh;
+}
+
+.diamante::before {
+  content: "";
+  position: absolute;
+  border-top: 40vh solid #222;
+  border-left: 30vh solid #f7f7f7;
+  border-right: 30vh solid #f7f7f7;
+  top: 20vh;
+  left: -50%;
+}

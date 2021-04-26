@@ -117,3 +117,10 @@
   background-color: #222;
   transform: rotate(90deg);
 }
+
+.huevo {
+  width: 30vh;
+  height: 50vh;
+  background-color: #222;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}

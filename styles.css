@@ -21,3 +21,10 @@
   border-radius: 50%;
   background-color: #222;
 }
+
+.semi-circulo {
+  height: 30vh;
+  width: 60vh;
+  border-radius: 30vh 30vh 0 0;
+  background-color: #222;
+}

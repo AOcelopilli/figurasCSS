@@ -124,3 +124,21 @@
   background-color: #222;
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 }
+
+.strella6picos {
+  position: relative;
+  top: -10vh;
+  border-bottom: 50vh solid #222;
+  border-left: 25vh solid #f7f7f7;
+  border-right: 25vh solid #f7f7f7;
+}
+
+.strella6picos::after {
+  content: "";
+  position: absolute;
+  border-top: 50vh solid #222;
+  border-left: 25vh solid transparent;
+  border-right: 25vh solid transparent;
+  left: -25vh;
+  top: 20vh;
+}

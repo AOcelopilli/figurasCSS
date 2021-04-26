@@ -51,3 +51,24 @@
   background-color: #222;
   transform: skewX(-20deg);
 }
+
+.hexagono {
+  position: relative;
+  height: 0;
+  width: 60vh;
+  border-top: 25vh solid #222;
+  border-left: 15vh solid #f7f7f7;
+  border-right: 15vh solid #f7f7f7;
+}
+
+.hexagono::before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 60vh;
+  border-bottom: 25vh solid #222;
+  border-left: 15vh solid #f7f7f7;
+  border-right: 15vh solid #f7f7f7;
+  left: -50%;
+  top: -50vh;
+}

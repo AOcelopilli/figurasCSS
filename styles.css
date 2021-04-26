@@ -72,3 +72,11 @@
   left: -50%;
   top: -50vh;
 }
+
+.gota {
+  height: 45vh;
+  width: 45vh;
+  background-color: #222;
+  border-radius: 0 50% 50% 50%;
+  transform: rotate(45deg);
+}
